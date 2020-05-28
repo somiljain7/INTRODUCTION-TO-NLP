@@ -11,3 +11,6 @@ stopwords are words that occur frequently in the language and dont contain much 
 token.lemma_ returns lemma 
 
 token.is_stop(true if stopword else false)
+
+Pattern matching 
+matching tokens or phrases within chunks of text or whole documents
