@@ -14,3 +14,5 @@ token.is_stop(true if stopword else false)
 
 Pattern matching 
 matching tokens or phrases within chunks of text or whole documents
+
+When you want to match a list of terms, it's easier and more efficient to use PhraseMatcher
