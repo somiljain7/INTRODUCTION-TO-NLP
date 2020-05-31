@@ -16,3 +16,5 @@ Pattern matching
 matching tokens or phrases within chunks of text or whole documents
 
 When you want to match a list of terms, it's easier and more efficient to use PhraseMatcher
+
+In natural language processing, a one-hot vector is a 1 × N matrix (vector) used to distinguish each word in a vocabulary from every other word in the vocabulary. 
