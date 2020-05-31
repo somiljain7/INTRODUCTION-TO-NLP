@@ -22,3 +22,9 @@ In natural language processing, a one-hot vector is a 1 × N matrix (vector) use
 
 Np_utils-
 is used to convert array of labeled data(from 0 to nb_classes-1) to one-hot vector.
+
+
+
+By setting verbose 0, 1 or 2 you just say how do you want to 'see' the training progress for each epoch.
+verbose=0 will show you nothing (silent)
+verbose=1 will show you an animated progress bar
