@@ -15,6 +15,7 @@ token.is_stop(true if stopword else false)
 Pattern matching 
 matching tokens or phrases within chunks of text or whole documents
 
+
 When you want to match a list of terms, it's easier and more efficient to use PhraseMatcher
 
 In natural language processing, a one-hot vector is a 1 × N matrix (vector) used to distinguish each word in a vocabulary from every other word in the vocabulary. 
@@ -32,3 +33,8 @@ verbose=1 will show you an animated progress bar
 One Hot encoding of labels.
 
 A one-hot vector is a vector which is 0 in most dimensions, and 1 in a single dimension. In this case, the nth digit will be represented as a vector which is 1 in the nth dimension.
+
+
+Feature Standardization
+
+It is important preprocessing step. It is used to centre the data around zero mean and unit variance.
