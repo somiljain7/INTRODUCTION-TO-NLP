@@ -38,3 +38,12 @@ A one-hot vector is a vector which is 0 in most dimensions, and 1 in a single di
 Feature Standardization
 
 It is important preprocessing step. It is used to centre the data around zero mean and unit variance.
+
+##########
+from nltk.corpus imports stopwords
+text = """The cat is in box. The cat likes box."""
+tokens = [ w for w in word_tokenize(text.lower()) if w.isalpha()]
+no_stops = [t for t in tokens if t not in stopwords.words('english')]
+Counter(no_stops).mostcommon(2)
+#output : ('cats',2) ,(box,2)
+##########
