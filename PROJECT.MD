@@ -1,3 +1,11 @@
 ++
 https://github.com/qurator-spk/sbb_textline_detection
 ++
+https://github.com/DSKSD/DeepNLP-models-Pytorch
+++
+https://github.com/graykode/nlp-tutorial
+++
+https://github.com/keon/awesome-nlp
+++
+https://github.com/salesforce/decaNLP
+++
