@@ -33,3 +33,6 @@ tf-idf make for more interesting results on the document level
 
 ## ATTENTION MASK
 The attention mask is a binary tensor indicating the position of the padded indices so that the model does not attend to them. For the BertTokenizer , 1 indicates a value that should be attended to, while 0 indicates a padded value.
+
+## Multi-head attention
+and gives the Transformer greater power to encode multiple relationships and nuances for each word. To understand exactly how the data is processed internally, let's walk through the working of the Attention module while we are training the Transformer to solve a translation problem.
