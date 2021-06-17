@@ -31,3 +31,5 @@ tf-idf make for more interesting results on the document level
     interoperability 0.12449686140192663
     reverse-engineered 0.12449686140192663
 
+## ATTENTION MASK
+The attention mask is a binary tensor indicating the position of the padded indices so that the model does not attend to them. For the BertTokenizer , 1 indicates a value that should be attended to, while 0 indicates a padded value.
